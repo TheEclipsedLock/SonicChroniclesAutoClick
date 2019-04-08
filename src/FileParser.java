@@ -94,7 +94,7 @@ public class FileParser {
             //viral chao input code is entered, we have to stop, exit, and re-enter the chao garden.
             //This way, we don't have to since we are looking for the one code that lets us get Farfinkle.
             //So, technically, we are testing for the remaining 65533 other combinations.
-            if (/*inputTokens[x].equals("babybaby") ||*/ inputTokens[x].equals("aaxbybax") || inputTokens[x].equals("baxyabyx") || inputTokens[x].equals("xxybbayx")) {
+            if (inputTokens[x].equals("babybaby") || inputTokens[x].equals("aaxbybax") || inputTokens[x].equals("baxyabyx") || inputTokens[x].equals("xxybbayx")) {
                 inputTokens[x] = "aaaaaaaa";
             }
         }
